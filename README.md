@@ -1,5 +1,5 @@
 # Tarea
-![image](https://github.com/linleyliliana/Tarea/assets/151756112/fb6146d7-18b0-43a2-803d-9de74cc176e8)
-![image](https://github.com/linleyliliana/Tarea/assets/151756112/3d0c2291-4b94-46a1-9e9d-0439db34a83a)
-![image](https://github.com/linleyliliana/Tarea/assets/151756112/2693e700-d1aa-4ec7-a0fb-10a004049a44)
-![image](https://github.com/linleyliliana/Tarea/assets/151756112/1affb4f0-779d-4a19-8f14-37f3621430a8)
+![image](https://github.com/linleyliliana/Tarea/assets/151756112/9a7b27ec-0580-421a-a1b8-410a15777d26)
+![image](https://github.com/linleyliliana/Tarea/assets/151756112/8bfdb83c-0075-437b-be54-dcc32199493c)
+![image](https://github.com/linleyliliana/Tarea/assets/151756112/14f0a9ce-eca4-42cd-833e-3d369bafa393)
+![image](https://github.com/linleyliliana/Tarea/assets/151756112/92e180cb-b40a-483c-b915-569857a7ccea)
