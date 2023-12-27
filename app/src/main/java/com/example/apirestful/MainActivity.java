@@ -4,11 +4,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.EditText;
 import android.widget.TextView;
 
 import com.example.apirestful.WebServices.Asynchtask;
 import com.example.apirestful.WebServices.WebService;
+import com.google.android.material.textfield.TextInputEditText;
+import com.google.android.material.textfield.TextInputLayout;
 
 import org.json.JSONException;
 
@@ -25,13 +26,14 @@ public class MainActivity extends AppCompatActivity implements Asynchtask {
     }
 
     public void clickLogin(View view){
-        Bundle bundle = this.getIntent().getExtras();
+        //Bundle bundle = this.getIntent().getExtras();
         Map<String, String> datos = new HashMap<String, String>();
-        EditText txtusuario = findViewById(R.id.txtUsuario);
-        EditText txtclave = findViewById(R.id.textContra);
+        TextInputLayout txtusuario = findViewById(R.id.txtUser);
+        TextInputLayout txtclave = findViewById(R.id.txtPass);
         WebService ws= new WebService(
                 "https://revistas.uteq.edu.ec/ws/login.php?usr="
-                        + txtusuario.getText().toString() + "&pass=" + txtclave.getText().toString(),
+                        + txtusuario.getEditText().getText().toString() + "&pass=" +
+                        txtclave.getEditText().getText().toString(),
                 datos, MainActivity.this, MainActivity.this);
         ws.execute("GET");
 }

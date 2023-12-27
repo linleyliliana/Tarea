@@ -71,7 +71,7 @@ public class MainActivity2 extends AppCompatActivity {
         for (Turismo lugar : lugares) {
             nombres.append("Categoría: "+lugar.getCate()+
                     "  Nombre: "+ lugar.getNombrelug()+
-                    "   Teléfono :"+ lugar.getTel()).append("\n");
+                    "   Teléfono :"+ lugar.getTel()).append("\n\n");
         }
         txtLista.setText(nombres.toString());
     }
@@ -87,29 +87,30 @@ public class MainActivity2 extends AppCompatActivity {
     }
 
     public class Turismo {
-        private String cate;
-        private String nombrelug;
-        private String tel;
+        private String categoria;
+        private String nombre_lugar;
+        private String telefono;
+
 
         public String getCate() {
-            return cate;
+            return categoria;
         }
         public void setCate(String categoria) {
-            this.cate = categoria;
+            this.categoria = categoria;
         }
 
         public String getNombrelug() {
-            return nombrelug;
+            return nombre_lugar;
         }
         public void setNombrelug(String nombrelug) {
-            this.nombrelug = nombrelug;
+            this.nombre_lugar = nombrelug;
         }
 
         public String getTel() {
-            return tel;
+            return telefono;
         }
         public void setTel(String tel) {
-            this.tel = tel;
+            this.telefono = tel;
         }
     }
 }

@@ -23,8 +23,8 @@
 
     <TextView
         android:id="@+id/txtLista"
-        android:layout_width="356dp"
-        android:layout_height="501dp"
+        android:layout_width="362dp"
+        android:layout_height="582dp"
         android:text="TextView"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
